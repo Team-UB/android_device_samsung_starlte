@@ -16,3 +16,14 @@ PRODUCT_MODEL := SM-G960F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# VendorDevice identifier.
+PRODUCT_PROPERTY_OVERRIDES := \
+ro.vendor.product.manufacturer=samsung \
+ro.vendor.product.model=SM-G965F \
+ro.vendor.product.brand=samsung \
+ro.vendor.product.name=aosp_star2lte \
+ro.vendor.product.device=star2lte
+
+# Include Bootanimation configuration
+TARGET_BOOT_ANIMATION_RES := 1440
