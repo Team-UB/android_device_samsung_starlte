@@ -1,0 +1,8 @@
+add_lunch_combo tub_starlte-userdebug
+add_lunch_combo tub_starlte-user
+add_lunch_combo tub_starlte-eng
+add_lunch_combo tub_starlte
+add_lunch_combo rr_starlte-userdebug
+add_lunch_combo rr_starlte-user
+add_lunch_combo rr_starlte-eng
+add_lunch_combo rr_starlte
