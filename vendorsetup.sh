@@ -6,3 +6,11 @@ add_lunch_combo rr_starlte-userdebug
 add_lunch_combo rr_starlte-user
 add_lunch_combo rr_starlte-eng
 add_lunch_combo rr_starlte
+add_lunch_combo lineage_starlte-userdebug
+add_lunch_combo lineage_starlte-user
+add_lunch_combo lineage_starlte-eng
+add_lunch_combo lineage_starlte
+add_lunch_combo aosp_starlte-userdebug
+add_lunch_combo aosp_starlte-user
+add_lunch_combo aosp_starlte-eng
+add_lunch_combo aosp_starlte
