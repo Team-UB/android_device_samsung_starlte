@@ -11,5 +11,11 @@ $(call inherit-product, device/samsung/universal9810-common/universal9810-common
 # Inherit some common tub stuff.
 $(call inherit-product, vendor/tub/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := starlte
-PRODUCT_NAME := tub_starlte
+
+
+# Device fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRODUCT_DEVICE :="starlte" \
+	PRODUCT_NAME :="tub_starlte" \
+    BUILD_FINGERPRINT="samsung/starltexx/starlte:9/PPR1.180610.011/G960FXXU2CSA2:user/release-keys" \	
+    PRIVATE_BUILD_DESC="starltexx-user 9 PPR1.180610.011 G960FXXU2CSA2 release-keys"

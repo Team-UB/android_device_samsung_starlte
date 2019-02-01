@@ -26,7 +26,13 @@ ro.vendor.product.brand=samsung \
 ro.vendor.product.name=tub_starlte \
 ro.vendor.product.device=starlte
 
+# Device uses high-density artwork where available
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 1440
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_BOOT_ANIMATION_RES := 1440
+
+
