@@ -12,6 +12,9 @@ GAPPS_EXCLUDED_PACKAGES += \
        EditorsDocs \
 	   PackageInstallerGoogle \
        PrebuiltNewsWeather
+	   WebViewGoogle \
+	   GoogleWebView \
+	   WebViewStub
 	   
 PRODUCT_PACKAGES += \
        Chrome \
