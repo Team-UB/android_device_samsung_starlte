@@ -9,9 +9,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/starlte/device.mk)
 
-# Inherit gapps
-$(call inherit-product, device/samsung/starlte/gapps.mk)
-
 # Device identifier. This must come after all inclusions
 PRODUCT_MODEL := SM-G965F
 PRODUCT_BRAND := samsung
