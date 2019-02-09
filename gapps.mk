@@ -5,22 +5,21 @@ GAPPS_FORCE_PACKAGE_OVERRIDES := true
 GAPPS_FORCE_BROWSER_OVERRIDES := true
 GAPPS_FORCE_WEBVIEW_OVERRIDES := true
 GAPPS_EXCLUDED_PACKAGES += \
-       GoogleCamera \
-       GoogleHome \
        EditorsSheets \
        EditorsSlides \
        EditorsDocs \
-	   PackageInstallerGoogle \
-       PrebuiltNewsWeather
-	   WebViewGoogle \
-	   GoogleWebView \
-	   WebViewStub
+       GoogleCamera \
+       GoogleHome \
+       GoogleWebView \
+       PackageInstallerGoogle \
+       PrebuiltNewsWeather \
+       WebViewGoogle \
+       WebViewStub
 	   
 PRODUCT_PACKAGES += \
-       Chrome \
        CalculatorGoogle \
-       PrebuiltDeskClockGoogle \
        CalendarGooglePrebuilt \
-       LatinImeGoogle 
+       LatinImeGoogle \
+       PrebuiltDeskClockGoogle
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
