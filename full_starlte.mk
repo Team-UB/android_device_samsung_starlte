@@ -34,5 +34,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 TARGET_SCREEN_WIDTH := 1440
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_BOOT_ANIMATION_RES := 1440
+	
+# Exynos pie camera libs
+PRODUCT_COPY_FILES += \
+        device/samsung/starlte/lib/libexynoscamera3.so:vendor/lib/libexynoscamera3.so
+
 
 
