@@ -17,7 +17,7 @@ $(call inherit-product, vendor/tub/config/common_full_phone.mk)
     TARGET_GAPPS_ARCH :=arm64
 		
 # Device fingerprint
-	BUILD_FINGERPRINT := samsung/starltexx/starlte:9/PPR1.180610.011/G960FXXU2CSB3:user/release-keys
+BUILD_FINGERPRINT := samsung/starltexx/starlte:8.0.0/R16NW/G960FXXU1ARCC:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRIVATE_BUILD_DESC="starltexx-user 9 PPR1.180610.011 G960FXXU2CSB3 release-keys"
+        PRIVATE_BUILD_DESC="starltexx-user 8.0.0 R16NW G960FXXU1ARCC release-keys"
