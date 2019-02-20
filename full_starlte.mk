@@ -10,10 +10,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/starlte/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_MODEL := SM-G965F
+PRODUCT_DEVICE := starlte
+PRODUCT_NAME := full_starlte
+PRODUCT_MODEL := SM-G960F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 
 # VendorDevice identifier.
 PRODUCT_PROPERTY_OVERRIDES := \
