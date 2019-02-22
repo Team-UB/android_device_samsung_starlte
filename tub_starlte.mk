@@ -9,7 +9,7 @@ $(call inherit-product, device/samsung/starlte/full_starlte.mk)
 $(call inherit-product, device/samsung/universal9810-common/universal9810-common.mk)
 
 # Inherit some common tub stuff.
-$(call inherit-product, vendor/tub/config/common_full_phone.mk)
+$(call inherit-product, vendor/tub/config/telephony.mk)
 
 	PRODUCT_DEVICE := starlte
 	PRODUCT_NAME := tub_starlte
