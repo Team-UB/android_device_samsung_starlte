@@ -17,10 +17,6 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
-
 # VendorDevice identifier.
 PRODUCT_PROPERTY_OVERRIDES := \
 ro.vendor.product.manufacturer=samsung \
